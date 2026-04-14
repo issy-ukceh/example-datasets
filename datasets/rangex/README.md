@@ -1,5 +1,7 @@
 # 🐞 RangeX dataset (COCO format)
 
+<img src="datasets/rangex/media/HE22_01_83_2037_2.jpg" alt="RangeX example image" width="300"/>
+
 This folder contains all the code to convert the RangeX dataset from its original COCO format to the Camtrap DP standard. The original full dataset is not publicly available yet.
 
 ## 🖥️ Code folder contents
