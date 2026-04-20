@@ -1,10 +1,22 @@
 name: Dataset Standards Validation
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'datasets/**'
+      - '.github/scripts/**'
+      - '.github/workflows/**'
+      
   pull_request_target: 
     branches: [ "main" ]
+    paths:
+      - 'datasets/**'
+      
   schedule:
     - cron: '0 0,12 * * *'
   workflow_dispatch:
@@ -91,7 +103,7 @@ jobs:
           # Stage README and conditionally commit if changes exist
           git add README.md
           if ! git diff-index --quiet HEAD; then
-            git commit -m "docs: auto-update dataset progress table"
+            git commit -m "docs: auto-update dataset progress table [skip ci]"
             git push
           else
             echo "No changes detected in README.md. Skipping commit."
