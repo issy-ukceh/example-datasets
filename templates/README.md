@@ -1,13 +1,4 @@
----
-title: "Rmd Templates to map InsectAI data to Camtrap DP"
-author: "Sanne Govaert"
-output: html_document
-date: "2026-04-20"
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Rmd Templates to map InsectAI data to Camtrap DP
 
 Here are 2 R Markdown templates for mapping raw data to Camera Trap Data Package (Camtrap DP).
 
@@ -28,7 +19,3 @@ Maps raw data to the current version of Camtrap DP.
 ## template-insectai-camtrapdp
 
 Maps raw data to the adapted Camtrap DP version, with the current suggested changes proposed by the InsectAI community.
-
-
-
-
