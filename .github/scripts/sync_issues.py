@@ -7,9 +7,9 @@ import os
 import json
 import subprocess
 import argparse
+import datetime
 from typing import Any
 from dataclasses import dataclass
-import datetime
 
 @dataclass
 class RuleReturn:
@@ -36,12 +36,35 @@ def rule_check_table(checks : list[RuleReturn]) -> str:
     rows = [check.markdown for check in checks]
     return "\n".join([header, hline, *rows])
 
+def generate_overview_table(data: dict) -> str:
+    """Generates a high-level summary table of all datasets and their statuses."""
+    lines = ["| Dataset | Status | Example Image |", "|---|:---:|---|"]
+    
+    for ds_name, ds_info in data.items():
+        checks = [RuleReturn(**c) for c in ds_info.get("checks", [])]
+        
+        all_passed = all(c.status for c in checks)
+        status_icon = "🟢 Pass" if all_passed else "❌ Fail"
+        
+        img_path = ds_info.get("image")
+        img_md = f'<img src="{img_path}" width="200">' if img_path else "_No image tag found_"
+        
+        lines.append(f"| **{ds_name}** | {status_icon} | {img_md} |")
+        
+    return "\n".join(lines)
+
+def get_repo_flag():
+    """Returns the repo flag for gh CLI if running inside GitHub Actions."""
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    return ["--repo", repo] if repo else []
+
 def get_issue_number(title):
-    """Fetches open issues and strictly matches the title in Python to avoid gh search syntax bugs."""
+    """Fetches open issues and strictly matches the title in Python."""
     cmd = [
         "gh", "issue", "list", 
+        *get_repo_flag(),
         "--state", "open", 
-        "--limit", "10000",
+        "--limit", "100",
         "--json", "title,number"
     ]
     result = subprocess.run(cmd, capture_output=True, text=True)
@@ -55,21 +78,20 @@ def get_issue_number(title):
 
 def handle_issues(data, dry_run):
     """Handles creating or updating GitHub issues based on dataset violations."""
-    for ds_name, checks_data in data.items():
+    repo_flag = get_repo_flag()
+    
+    for ds_name, ds_info in data.items():
         title = f"[Dataset Standard Violation] {ds_name}"
         issue_number = get_issue_number(title) if not dry_run else f'LOCAL[{ds_name}]'
         
-        all_checks = [RuleReturn(**check_data) for check_data in checks_data]
+        all_checks = [RuleReturn(**c) for c in ds_info.get("checks", [])]
         failed_checks = [c for c in all_checks if not c.status]
 
         # 1. Process Violations (Create or Update)
         if failed_checks:
             table = rule_check_table(all_checks)
-            
-            # Generate a clean timestamp in UTC
             timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
             
-            # Append the timestamp to the bottom of the body
             body = f"# Example data check\n\nResults from comparing the structure of datasets/{ds_name}.\n\n{table}\n\n---\n*Last updated: {timestamp}*"
 
             if dry_run:
@@ -78,10 +100,10 @@ def handle_issues(data, dry_run):
             else:
                 if issue_number:
                     print(f"Updating existing issue #{issue_number} for {ds_name}")
-                    subprocess.run(["gh", "issue", "edit", issue_number, "--body", body], check=True)
+                    subprocess.run(["gh", "issue", "edit", issue_number, *repo_flag, "--body", body], check=True)
                 else:
                     print(f"Creating new issue for {ds_name}")
-                    subprocess.run(["gh", "issue", "create", "--title", title, "--body", body, "--label", "data-standard"], check=True)
+                    subprocess.run(["gh", "issue", "create", *repo_flag, "--title", title, "--body", body, "--label", "data-standard"], check=True)
 
         # 2. Process Fixed Datasets (Close Resolved)
         elif not failed_checks and issue_number:
@@ -92,6 +114,7 @@ def handle_issues(data, dry_run):
                 print(f"Closing resolved issue #{issue_number} for {ds_name}")
                 subprocess.run([
                     "gh", "issue", "close", issue_number, 
+                    *repo_flag,
                     "--comment", "✅ All required standard files and directories are now present. Closing issue."
                 ], check=True)
 
@@ -102,19 +125,23 @@ def handle_pr(data, dry_run):
         print("No PR_NUMBER found in environment.")
         return
 
-    comments = []
-    for ds_name, checks_data in data.items():
-        all_checks = [RuleReturn(**check_data) for check_data in checks_data]
-        if not all_checks:
-            continue
-            
-        table = rule_check_table(all_checks)
-        body = f"### Example data check: {ds_name}\n\nResults from comparing the structure of datasets/{ds_name}.\n\n{table}"
-        comments.append(body)
+    repo_flag = get_repo_flag()
 
-    if not comments:
+    if not data:
         full_body = "✅ No datasets found to validate."
     else:
+        overview = generate_overview_table(data)
+        comments = [f"## 📊 Dataset Validation Overview\n\n{overview}"]
+        
+        for ds_name, ds_info in data.items():
+            all_checks = [RuleReturn(**c) for c in ds_info.get("checks", [])]
+            if not all_checks:
+                continue
+                
+            table = rule_check_table(all_checks)
+            body = f"### {ds_name} Breakdown\n\n{table}"
+            comments.append(body)
+
         full_body = "\n\n---\n\n".join(comments)
 
     if dry_run:
@@ -124,7 +151,7 @@ def handle_pr(data, dry_run):
         print(f"Commenting on PR #{pr_number}")
         with open("pr_comment_body.md", "w") as f:
             f.write(full_body)
-        subprocess.run(["gh", "pr", "comment", pr_number, "--body-file", "pr_comment_body.md"], check=True)
+        subprocess.run(["gh", "pr", "comment", pr_number, *repo_flag, "--body-file", "pr_comment_body.md"], check=True)
 
 def main():
     parser = argparse.ArgumentParser(description="Sync dataset validation results to GitHub Issues or PRs.")
