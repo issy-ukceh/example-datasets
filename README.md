@@ -1,10 +1,22 @@
-[![Dataset Standards Validation](https://github.com/InsectAI-COST-Action/example-datasets/actions/workflows/validate-datasets.yaml/badge.svg)](https://github.com/InsectAI-COST-Action/example-datasets/actions/workflows/validate-datasets.yaml)
-
 # InsectAI Example Datasets and Standards Development
+
+<center>
 
 <img src="resources/insectAI.svg" alt="InsectAI Logo" width="300"/>
 
----
+[![Dataset Standards Validation](https://github.com/InsectAI-COST-Action/example-datasets/actions/workflows/validate-datasets.yaml/badge.svg)](https://github.com/InsectAI-COST-Action/example-datasets/actions/workflows/validate-datasets.yaml)
+
+</center>
+
+
+## 📁 Example Dataset Progress
+
+<!-- START: DATASET PROGRESS TABLE -->
+<!-- Do NOT manually edit! -->
+
+
+<!-- Last updated: <INSERT> -->
+<!-- END: DATASET PROGRESS TABLE -->
 
 ## 🧪 Contents
 

@@ -15,7 +15,7 @@ jobs:
     permissions:
       issues: write
       pull-requests: write
-      contents: read
+      contents: write
 
     steps:
       - name: Checkout trusted scripts
@@ -44,14 +44,12 @@ jobs:
         run: |
           chmod +x base-repo/.github/scripts/validate_datasets.py
           
-          # Step into pr-repo so output paths look clean
           cd pr-repo
           OUTPUT=$(../base-repo/.github/scripts/validate_datasets.py --dir datasets --format json || true)
           cd ..
           
           export RESULTS="$OUTPUT"
           
-          # Run the TRUSTED sync script
           python base-repo/.github/scripts/sync_issues.py --mode pr
 
       - name: Run validation (Issue Sync)
@@ -60,12 +58,10 @@ jobs:
         run: |
           chmod +x base-repo/.github/scripts/validate_datasets.py
           
-          # Step into base-repo so output paths look clean
           cd base-repo
           OUTPUT=$(.github/scripts/validate_datasets.py --dir datasets --format json || true)
           cd ..
           
-          # $GITHUB_OUTPUT is an absolute path, so appending to it here is safe
           echo "results=$OUTPUT" >> $GITHUB_OUTPUT
 
       - name: Sync GitHub Issues
@@ -76,3 +72,27 @@ jobs:
           RESULTS: ${{ steps.run_validation.outputs.results }}
         run: |
           python base-repo/.github/scripts/sync_issues.py --mode issues
+
+      - name: Sync README.md Progress Table
+        if: github.event_name != 'pull_request_target'
+        env:
+          RESULTS: ${{ steps.run_validation.outputs.results }}
+        run: |
+          # Step into base repo, which contains the .git history and README
+          cd base-repo
+          
+          # Inject the table and timestamp into README.md
+          python .github/scripts/sync_issues.py --mode readme
+          
+          # Configure git so GitHub Actions can push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage README and conditionally commit if changes exist
+          git add README.md
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "docs: auto-update dataset progress table"
+            git push
+          else
+            echo "No changes detected in README.md. Skipping commit."
+          fi

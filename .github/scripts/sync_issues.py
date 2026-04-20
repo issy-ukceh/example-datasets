@@ -8,6 +8,7 @@ import json
 import subprocess
 import argparse
 import datetime
+import re
 from typing import Any
 from dataclasses import dataclass
 
@@ -152,7 +153,7 @@ def handle_pr(data, dry_run):
     repo_flag = get_repo_flag()
 
     if not data:
-        full_body = "✅ No datasets found to validate."
+        full_body = "❌❌❌ No datasets found to validate. ❌❌❌"
     else:
         overview = generate_overview_table(data)
         comments = [f"## 📊 Dataset Validation Overview\n\n{overview}"]
@@ -177,9 +178,53 @@ def handle_pr(data, dry_run):
             f.write(full_body)
         subprocess.run(["gh", "pr", "comment", pr_number, *repo_flag, "--body-file", "pr_comment_body.md"], check=True)
 
+def handle_readme(data, dry_run):
+    """Updates the README.md file with the latest dataset overview table."""
+    readme_path = "README.md"
+    if not os.path.exists(readme_path):
+        print(f"⚠️ Warning: {readme_path} not found.")
+        return
+
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    table = generate_overview_table(data)
+    timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
+
+    # 1. Update Table Block using exact string splitting (safer than regex for markdown tables)
+    start_marker = "<!-- START: DATASET PROGRESS TABLE -->"
+    start_notice = "<!-- Do NOT manually edit! -->"
+    end_timestamp = f"<!-- Last updated: {timestamp} -->"
+    end_marker = "<!-- END: DATASET PROGRESS TABLE -->"
+    
+    if start_marker in content and end_marker in content:
+        pre_table = content.split(start_marker)[0]
+        post_table = content.split(end_marker)[1]
+        content = "\n".join([
+                pre_table,
+                start_marker,
+                start_notice,
+                "",
+                table,
+                "",
+                end_timestamp,
+                end_marker,
+                post_table
+        ])
+    else:
+        print(f"⚠️ Warning: Could not find table markers in {readme_path}.")
+
+    if dry_run:
+        print(f"\n{'='*50}\nDRY RUN: README UPDATE\n{'='*50}")
+        print(content)
+    else:
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(content)
+        print("✅ README.md updated successfully.")
+
 def main():
     parser = argparse.ArgumentParser(description="Sync dataset validation results to GitHub Issues or PRs.")
-    parser.add_argument("--mode", choices=["issues", "pr"], default="issues", help="Run mode: sync to issues or comment on PR.")
+    parser.add_argument("--mode", choices=["issues", "pr", "readme"], default="issues", help="Run mode: sync to issues or comment on PR.")
     parser.add_argument("--dry-run", action="store_true", help="Print the issue/comment content to console instead of pushing to GitHub.")
     parser.add_argument("--test-file", type=str, help="Path to a local JSON file to use instead of the RESULTS env var.")
     args = parser.parse_args()
@@ -198,10 +243,13 @@ def main():
         if isinstance(v, list):
             data[k] = {"image": None, "checks": v}
 
-    if args.mode == "pr":
-        handle_pr(data, args.dry_run)
-    else:
-        handle_issues(data, args.dry_run)
+    match args.mode:
+        case "pr":
+            handle_pr(data, args.dry_run)
+        case "iisues":
+            handle_issues(data, args.dry_run)
+        case "readme":
+            handle_readme(data, args.dry_run)
 
 if __name__ == "__main__":
     main()
