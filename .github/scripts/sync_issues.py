@@ -50,8 +50,18 @@ STATUS_SYMBOLS = {
 }
 
 def generate_overview_table(data: dict) -> str:
-    """Generates a high-level summary table of all datasets and their statuses."""
-    lines = ["| Dataset | Status | Example Image |", "| :-- | :--: | :--: |"]
+    """Generates a high-level HTML summary table of all datasets and their statuses."""
+    lines = [
+        '<table width="100%">',
+        '  <thead>',
+        '    <tr>',
+        '      <th style="text-align: left;">Dataset</th>',
+        '      <th style="text-align: center;">Status</th>',
+        '      <th style="text-align: center;">Example Image</th>',
+        '    </tr>',
+        '  </thead>',
+        '  <tbody>'
+    ]
     
     for ds_name, ds_info in data.items():
         checks = [RuleReturn(**c) for c in ds_info.get("checks", [])]
@@ -70,12 +80,19 @@ def generate_overview_table(data: dict) -> str:
             status = "partial"
         status_icon = STATUS_SYMBOLS[status]
         
-        
         img_path = ds_info.get("image")
-        img_md = f'<img src="{img_path}" height="150">' if img_path else "_No image tag found_"
+        # Center tags aren't needed here because the <td> is center-aligned
+        img_md = f'<img src="{img_path}" height="150">' if img_path else "<i>No image tag found</i>"
         
-        lines.append(f"| [**{ds_name}**](/datasets/{ds_name}) | {status_icon} {status.capitalize()} ({n_pass}/{n_chk}) | {img_md} |")
+        lines.append('    <tr>')
+        lines.append(f'      <td style="text-align: left;"><a href="/datasets/{ds_name}"><b>{ds_name}</b></a></td>')
+        lines.append(f'      <td style="text-align: center;">{status_icon} {status.capitalize()} ({n_pass}/{n_chk})</td>')
+        lines.append(f'      <td style="text-align: center;">{img_md}</td>')
+        lines.append('    </tr>')
         
+    lines.append('  </tbody>')
+    lines.append('</table>')
+    
     return "\n".join(lines)
 
 def get_repo_flag():
