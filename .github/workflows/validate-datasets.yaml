@@ -64,7 +64,7 @@ jobs:
             if [ -n "$ISSUE_NUMBER" ]; then
               gh issue edit "$ISSUE_NUMBER" --body "$BODY"
             else
-              gh issue create --title "$TITLE" --body "$BODY" --label "bug,data-standard"
+              gh issue create --title "$TITLE" --body "$BODY" --label "data-standard"
             fi
           done
 
