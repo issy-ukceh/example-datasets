@@ -76,9 +76,9 @@ def generate_overview_table(data: dict, pr : bool) -> str:
         
         img_path = ds_info.get("image")
         # Center tags aren't needed here because the <td> is center-aligned
-        img_md = f'<img src="{img_path}" height="150">' if img_path else "_No image tag found_"
+        img_md = f'<img src="{"./../../blob/main" if pr else ""}{img_path}" height="150">' if img_path else "_No image tag found_"
 
-        lines.append(f"| [**{ds_name}**]({'/..' if pr else ''}/datasets/{ds_name}) | {status_icon} {status.capitalize()} ({n_pass}/{n_chk}) | {img_md} |")
+        lines.append(f"| [**{ds_name}**](/datasets/{ds_name}) | {status_icon} {status.capitalize()} ({n_pass}/{n_chk}) | {img_md} |")
     
     return "\n".join(lines)
 
