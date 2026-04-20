@@ -12,3 +12,12 @@ script under artificial lab conditions with a 1 minute recording session duratio
 The `post-processed` directory contains the classified and post-processed metadata.
 The `*_top1_final.csv` file contains the metadata that could be used for further
 downstream analyses where each row corresponds to a tracked individual.
+
+## Folder Conversion:
+
+Mapping tables for the Camtrap-DP templates
+
+Two approaches: 
+
+1) mapped every single field in the standard to the data
+2) used Gemini to do an automatic mapping (mapping_plan.md)
