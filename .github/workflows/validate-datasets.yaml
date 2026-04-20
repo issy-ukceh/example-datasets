@@ -23,7 +23,6 @@ jobs:
         with:
           path: base-repo
 
-
       - name: Checkout untrusted PR datasets
         if: github.event_name == 'pull_request_target'
         uses: actions/checkout@v6
@@ -45,8 +44,10 @@ jobs:
         run: |
           chmod +x base-repo/.github/scripts/validate_datasets.py
           
-          # Run the TRUSTED script against the UNTRUSTED datasets folder
-          OUTPUT=$(base-repo/.github/scripts/validate_datasets.py --dir pr-repo/datasets --format json || true)
+          # Step into pr-repo so output paths look clean
+          cd pr-repo
+          OUTPUT=$(../base-repo/.github/scripts/validate_datasets.py --dir datasets --format json || true)
+          cd ..
           
           export RESULTS="$OUTPUT"
           
@@ -59,8 +60,12 @@ jobs:
         run: |
           chmod +x base-repo/.github/scripts/validate_datasets.py
           
-          # We are on 'main', so we just evaluate the base-repo datasets
-          OUTPUT=$(base-repo/.github/scripts/validate_datasets.py --dir base-repo/datasets --format json || true)
+          # Step into base-repo so output paths look clean
+          cd base-repo
+          OUTPUT=$(.github/scripts/validate_datasets.py --dir datasets --format json || true)
+          cd ..
+          
+          # $GITHUB_OUTPUT is an absolute path, so appending to it here is safe
           echo "results=$OUTPUT" >> $GITHUB_OUTPUT
 
       - name: Sync GitHub Issues
