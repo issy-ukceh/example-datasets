@@ -8,6 +8,7 @@
 
 </center>
 
+---
 
 ## 📁 Example Dataset Progress
 
@@ -16,10 +17,10 @@
 <!-- Do NOT manually edit! -->
 
 | Dataset | Status | Example Image |
-|---|:---:|---|
+| --: | :--: | :--: |
 | [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🔴 Failed (1/5) | _No image tag found_ |
 | [**flower_visitors**](/datasets/flower_visitors) | 🔴 Failed (1/5) | _No image tag found_ |
-| [**flatbug**](/datasets/flatbug) | 🟠 Partial (2/7) | <center><img src="datasets/flatbug/data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg " height="150"></center> |
+| [**flatbug**](/datasets/flatbug) | 🟠 Partial (2/7) | <img src="datasets/flatbug/data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg " height="150"> |
 | [**insect-detect**](/datasets/insect-detect) | 🔴 Failed (1/5) | _No image tag found_ |
 | [**rangex**](/datasets/rangex) | 🟡 Almost (4/5) | <center><img src="datasets/rangex/media/HE22_01_83_2037_2.jpg " height="150"></center> |
 | [**amber**](/datasets/amber) | 🔴 Failed (1/5) | _No image tag found_ |
@@ -32,6 +33,7 @@
 <!-- Last updated: 2026-04-20 20:35:54 UTC -->
 <!-- END: DATASET PROGRESS TABLE -->
 
+---
 
 ## 🧪 Contents
 

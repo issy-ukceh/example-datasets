@@ -51,7 +51,7 @@ STATUS_SYMBOLS = {
 
 def generate_overview_table(data: dict) -> str:
     """Generates a high-level summary table of all datasets and their statuses."""
-    lines = ["| Dataset | Status | Example Image |", "|---|:---:|---|"]
+    lines = ["| Dataset | Status | Example Image |", "| :-- | :--: | :--: |"]
     
     for ds_name, ds_info in data.items():
         checks = [RuleReturn(**c) for c in ds_info.get("checks", [])]
@@ -72,7 +72,7 @@ def generate_overview_table(data: dict) -> str:
         
         
         img_path = ds_info.get("image")
-        img_md = f'<center><img src="{img_path}" height="150"></center>' if img_path else "_No image tag found_"
+        img_md = f'<img src="{img_path}" height="150">' if img_path else "_No image tag found_"
         
         lines.append(f"| [**{ds_name}**](/datasets/{ds_name}) | {status_icon} {status.capitalize()} ({n_pass}/{n_chk}) | {img_md} |")
         
