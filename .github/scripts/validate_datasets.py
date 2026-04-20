@@ -1,6 +1,9 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.13,<3.14"
+# dependencies = [
+#   "frictionless",
+# ]
 # ///
 
 import argparse
@@ -9,6 +12,8 @@ import json
 from pathlib import Path
 from dataclasses import dataclass
 from typing import Optional, Any, Callable, List
+
+from frictionless import validate, Report, Error
 
 # ==========================================
 # 📐 DATA MODELS & REGISTRY
@@ -31,7 +36,7 @@ class RuleReturn:
 # This list will automatically collect all our decorated rule functions
 VALIDATION_RULES: List[Callable[[Path], RuleReturn]] = []
 
-def rule(func: Callable[[Path], RuleReturn]) -> Callable[[Path], RuleReturn]:
+def rule(func: Callable[[Path], RuleReturn]) -> Callable[[Path], RuleReturn | list[RuleReturn]]:
     """Decorator to automatically register a validation rule."""
     VALIDATION_RULES.append(func)
     return func
@@ -73,38 +78,68 @@ def check_readme(dataset_path: Path) -> RuleReturn:
         help="A readme file describing the dataset, its source, and details about the conversion."
     )
 
-@rule
-def check_deployments_csv(dataset_path: Path) -> RuleReturn:
-    # Future expansion: You could open the CSV here and validate contents!
-    return RuleReturn(
-        status=(dataset_path / "deployments.csv").is_file(),
-        name="File: deployments.csv",
-        help="Generated records of camera/sensor deployments. Required for Camtrap DP."
-    )
+
+@dataclass
+class Violation:
+    type : str
+    title : str
+    description : str
+    message : str
+    tags : list[str]
+    note : str
+
+    @classmethod
+    def from_error(cls, error : Error):
+        return cls(
+            type=error.type,
+            title=error.title,
+            description=error.description,
+            message=error.message,
+            tags=error.tags,
+            note=error.note
+        )
+    
+    def to_dict(self):
+        return {
+            "type" : self.type,
+            "title" : self.title,
+            "description" : self.description,
+            "message" : self.message,
+            "tag_list" : f'[{",".join(self.tags)}]',
+            "note" : self.note
+        }
+    
+    @property
+    def markdown(self):
+        template = """| {type} | {title} | {description} | {message} | {tag_list} | {note} |"""
+        return template.format(**self.to_dict())
+
+
+def issue_table(violations : list[Violation]) -> str:
+    header = "| Type | Title | Description | Message | Tag list | Note |"
+    hline = "-"*len(header)
+    rows = [violation.markdown for violation in violations]
+    return "\n".join([header, hline, *rows, hline])
+
 
 @rule
-def check_media_csv(dataset_path: Path) -> RuleReturn:
-    return RuleReturn(
-        status=(dataset_path / "media.csv").is_file(),
-        name="File: media.csv",
-        help="Generated metadata for all media files. Required for Camtrap DP."
-    )
-
-@rule
-def check_observations_csv(dataset_path: Path) -> RuleReturn:
-    return RuleReturn(
-        status=(dataset_path / "observations.csv").is_file(),
-        name="File: observations.csv",
-        help="Generated taxonomic or individual observations. Required for Camtrap DP."
-    )
-
-@rule
-def check_datapackage_json(dataset_path: Path) -> RuleReturn:
-    return RuleReturn(
-        status=(dataset_path / "datapackage.json").is_file(),
-        name="File: datapackage.json",
-        help="The generated metadata descriptor for the data package. (See: https://tdwg.github.io/camtrap-dp/)"
-    )
+def check_datapackage(dataset_path : Path) -> list[RuleReturn]:
+    result : Report = validate(source=dataset_path)
+    task_errors = {
+        task.name : [Violation.from_error(error) for error in task.errors]
+        for task in result.tasks
+    }
+    ret : list[RuleReturn] = []
+    for task, errors in task_errors.items():
+        for error in errors:
+            error_data = error.to_dict()
+            ret.append(RuleReturn(
+                status=False,
+                name=f'frictionless[{task}]: {error.title}',
+                help='\n  '.join(f'{k}: {v}' for k, v in error_data.items()),
+                data=error_data
+            ))
+    return ret
 
 
 # ==========================================
@@ -130,8 +165,11 @@ def get_violations(datasets_dir: str):
         # Run every registered rule against this dataset
         for run_rule in VALIDATION_RULES:
             result = run_rule(dataset_path)
-            if not result.status:
-                missing_items.append(result.to_dict())
+            if isinstance(result, RuleReturn):
+                result = [result]
+            for rrt in result:
+                if not rrt.status:
+                    missing_items.append(rrt.to_dict())
 
         violations[name] = missing_items
             
@@ -164,7 +202,7 @@ def main():
             for issue in issues:
                 print(f"   - Failed: {issue['name']}")
                 if issue.get("help"):
-                    print(f"     💡 {issue['help']}")
+                    print(f"     💡 {"\n        ".join(map(str.strip, issue['help'].splitlines()))}")
             print()
     
     sys.exit(1 if any(violations.values()) else 0)
