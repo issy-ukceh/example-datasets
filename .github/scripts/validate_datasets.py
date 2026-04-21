@@ -191,15 +191,15 @@ def extract_readme_image(dataset_path: Path) -> str | None:
 # 🚀 CORE EXECUTION LOGIC   
 # ==========================================
 
-def check(datasets_dir: str):
-    base_path = Path(datasets_dir)
+def check(dataset: str | None=None):
+    base_path = Path("datasets")
     if not base_path.exists() or not base_path.is_dir():
         return None
 
     checks = {}
     
     for dataset_path in base_path.iterdir():
-        if not dataset_path.is_dir():
+        if not dataset_path.is_dir() or (dataset is not None and dataset_path.name != dataset):
             continue 
         
         items = []
@@ -219,11 +219,11 @@ def check(datasets_dir: str):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dir", default="datasets")
+    parser.add_argument("--dataset", required=False)
     parser.add_argument("--format", choices=["text", "json"], default="text")
     args = parser.parse_args()
 
-    checks = check(args.dir)
+    checks = check(args.dataset)
     
     if checks is None:
         print(f"⚠️  Warning: Directory '{args.dir}' not found.", file=sys.stderr)
@@ -234,9 +234,12 @@ def main():
     if args.format == "json":
         print(json.dumps(checks))
     else:
+        print(checks)
         for ds, rule_results in checks.items():
             print(f"\nDataset: {ds}")
-            for result in rule_results:
+            image = rule_results["image"]
+            print('   - Image not found!' if not image else f'   - Image found: {image}')
+            for result in rule_results["checks"]:
                 status_str = "Success" if result.get("status", False) else "Failed"
                 print(f"   - {status_str}: {result['name']}")
                 if result.get("message", None):
