@@ -1,0 +1,18 @@
+[
+	{
+		"deployment_id" : "TH-J-3140",
+		"longitude" : 11.5366376,
+		"latitude" : 50.9403329,
+		"locationName" : "Waldstandort Remderoda, Jena",
+		"deployment_start" : "2026-04-01T16:00:00Z",
+		"deployment_end" : "2026-10-15T16:00:00Z",
+		"cameraID" : "SN010030",
+		"cameraModel" : "ARNI Pro Gen_3",
+		"cameraVersion" : "Pro_Gen_3",
+		"detectionDistance" : "0.7",
+		"baitUse" : "Y",
+		"baitType" : "light",
+		"firmwareVersion" : "2.0.9",
+		"firmwareDate" : "2025-06-10"
+	}
+]
