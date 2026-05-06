@@ -1,4 +1,4 @@
-<!-- Image: raw-data/Mothbox cover photo.jpg -->
+<!-- Image: raw-data/Mothbox%20cover%20photo.jpg -->
 
 # Mothbox Cerro Hoya
 
