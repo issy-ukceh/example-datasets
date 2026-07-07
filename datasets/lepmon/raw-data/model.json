@@ -1,0 +1,11 @@
+[
+	{
+		"modelID" : "MothClassifierV1",
+		"modelName" : "MothClassifier",
+		"modelVersion" : "V1",
+		"modelDescription" : "A moth classifier",
+		"modelPathRepository" : null,
+		"publicationDate" : "2025-11-18 22:45:01.595",
+		"modelTask" : "classifier"
+	}
+]

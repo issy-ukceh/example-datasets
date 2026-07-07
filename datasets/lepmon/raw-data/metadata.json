@@ -1,0 +1,15 @@
+[
+	{
+		"project_identifier" : "Lepmon",
+		"project_title" : "Lepmon Project",
+		"project_description" : "Das Lepmon Projekt|Lepmon Urban Gradient Experiment|Alle Standorte des Lepmon Urban Gradien Experiment|Jena (J) Urban Gradient|Alle Fallen des Urban Gradient Experiments am Standort Jena",
+		"project_contributor" : "Paul Bodesheim; Dennis Böttger; Christian Bräunig; Gunnar Brehm; Peter Grobe; Martin Planke; Julie Sheard; Roel van Klink; Hui Yu",
+		"min_lon" : 11.5366376,
+		"min_lat" : 50.9403329,
+		"max_lon" : 11.5366376,
+		"max_lat" : 50.9403329,
+		"min_time" : "2025-07-02 21:02:00.000",
+		"max_time" : "2025-07-03 05:34:00.000",
+		"project_taxa" : "Lepidoptera"
+	}
+]

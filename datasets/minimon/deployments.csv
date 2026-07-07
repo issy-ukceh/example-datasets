@@ -1,0 +1,2 @@
+deploymentID,locationID,locationName,latitude,longitude,coordinateUncertainty,deploymentStart,deploymentEnd,setupBy,cameraID,cameraModel,cameraDelay,cameraHeight,cameraDepth,cameraTilt,cameraHeading,detectionDistance,timestampIssues,baitUse,featureType,habitat,deploymentGroups,deploymentTags,deploymentComments
+d361edf3b48c4230b7d225919e50233b,,,,,,2025-06-14T09:42:03,2025-06-14T09:43:03,,E41990,,,,,,,,,,,,,,

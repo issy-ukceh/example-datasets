@@ -1,0 +1,231 @@
+{
+  "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
+  "resources": [
+    {
+      "name": "deployments",
+      "path": "deployments.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/deployments-table-schema.json"
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/media-table-schema.json"
+    },
+    {
+      "name": "observations",
+      "path": "observations.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/observations-table-schema.json"
+    }
+  ],
+  "name": "mothbox-cerro-hoya",
+  "created": "2026-04-23T16:08:55Z",
+  "contributors": [
+    {
+      "title": "Mothbox Cerro Hoya expedition",
+      "role": "contributor"
+    }
+  ],
+  "licenses": [
+    {
+      "scope": "data",
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "scope": "media",
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "project": {
+    "title": "Mothbox Cerro Hoya",
+    "description": "Example Camtrap DP dataset derived from the Cerro_Hoya_Expedition Mothbox deployment at the 408 m site (mature forest), Veraguas, Panama.",
+    "samplingDesign": "targeted",
+    "captureMethod": ["timeLapse"],
+    "individualAnimals": false,
+    "observationLevel": ["media"]
+  },
+  "spatial": {
+    "type": "Point",
+    "coordinates": [-80.77756, 7.34419]
+  },
+  "temporal": {
+    "start": "2025-01-26",
+    "end": "2025-01-29"
+  },
+  "taxonomic": [
+    {
+      "scientificName": "Agylla1"
+    },
+    {
+      "scientificName": "Alticini7"
+    },
+    {
+      "scientificName": "Araneae"
+    },
+    {
+      "scientificName": "Archaeognatha"
+    },
+    {
+      "scientificName": "Azochis gripusalis"
+    },
+    {
+      "scientificName": "Calonotos metallicus"
+    },
+    {
+      "scientificName": "Carabidae5"
+    },
+    {
+      "scientificName": "Carabidae6"
+    },
+    {
+      "scientificName": "Chauliognathus cinguliventris"
+    },
+    {
+      "scientificName": "Chauliognathus decolor"
+    },
+    {
+      "scientificName": "Coleoptera"
+    },
+    {
+      "scientificName": "Coleoptera11"
+    },
+    {
+      "scientificName": "Coleoptera12"
+    },
+    {
+      "scientificName": "Coleoptera24"
+    },
+    {
+      "scientificName": "Coleoptera26"
+    },
+    {
+      "scientificName": "Coleoptera27"
+    },
+    {
+      "scientificName": "Coleoptera28"
+    },
+    {
+      "scientificName": "Coleoptera8"
+    },
+    {
+      "scientificName": "Coleoptera_unknown"
+    },
+    {
+      "scientificName": "Cosmosoma xanthosticta"
+    },
+    {
+      "scientificName": "Curculionidae12"
+    },
+    {
+      "scientificName": "Curculionidae6"
+    },
+    {
+      "scientificName": "Curculionidae7"
+    },
+    {
+      "scientificName": "Cyclocephala lunulata"
+    },
+    {
+      "scientificName": "Cyclocephala melanocephala"
+    },
+    {
+      "scientificName": "Diabrotica1"
+    },
+    {
+      "scientificName": "Diabroticina1"
+    },
+    {
+      "scientificName": "Diaphania costata"
+    },
+    {
+      "scientificName": "Diptera"
+    },
+    {
+      "scientificName": "Disonycha glabrata"
+    },
+    {
+      "scientificName": "Dytiscidae1"
+    },
+    {
+      "scientificName": "ERROR"
+    },
+    {
+      "scientificName": "Elateridae2"
+    },
+    {
+      "scientificName": "Eulepidotis juncida"
+    },
+    {
+      "scientificName": "Hemiptera"
+    },
+    {
+      "scientificName": "Hymenoptera"
+    },
+    {
+      "scientificName": "Insecta"
+    },
+    {
+      "scientificName": "Lepasta bractea"
+    },
+    {
+      "scientificName": "Lepidoptera"
+    },
+    {
+      "scientificName": "Macrodactylini1"
+    },
+    {
+      "scientificName": "Orthoptera"
+    },
+    {
+      "scientificName": "Psocodea"
+    },
+    {
+      "scientificName": "Scarabaeidae"
+    },
+    {
+      "scientificName": "Scolytinae1"
+    },
+    {
+      "scientificName": "Silini2"
+    },
+    {
+      "scientificName": "Spragueia dama"
+    },
+    {
+      "scientificName": "Talara phaeella"
+    },
+    {
+      "scientificName": "Tenebrionoidea1"
+    },
+    {
+      "scientificName": "Tenebrionoidea2"
+    },
+    {
+      "scientificName": "Tesserocerus1"
+    },
+    {
+      "scientificName": "Toramus1"
+    },
+    {
+      "scientificName": "Trichoptera"
+    },
+    {
+      "scientificName": "Uranophora walkeri"
+    }
+  ]
+}

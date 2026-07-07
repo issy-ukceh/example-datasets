@@ -1,0 +1,2602 @@
+[
+	{
+		"media_id" : 1198239,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198239",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2102.csv",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198241,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198241",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2102.log",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198242,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198242",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2102.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198243,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198243",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2102_Kameraeinstellungen.xml",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198244,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198244",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2104.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198245,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198245",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2106.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198246,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198246",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2108.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198247,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198247",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2110.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198248,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198248",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2112.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198249,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198249",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2114.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198250,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198250",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2116.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198251,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198251",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2118.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198252,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198252",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2120.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198253,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198253",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2122.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198254,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198254",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2124.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198255,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198255",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2126.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198256,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198256",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2128.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198257,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198257",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2130.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198258,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198258",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2132.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198259,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198259",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2134.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198260,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198260",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2136.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198261,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198261",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2138.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198262,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198262",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2140.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198263,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198263",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2142.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198264,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198264",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2144.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198265,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198265",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2146.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198266,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198266",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2148.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198267,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198267",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2150.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198268,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198268",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2152.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198269,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198269",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2154.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198270,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198270",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2156.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198271,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 21:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198271",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2158.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198272,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198272",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2200.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198273,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198273",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2202.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198274,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198274",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2204.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198275,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198275",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2206.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198276,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198276",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2208.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198277,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198277",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2210.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198278,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198278",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2212.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198279,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198279",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2214.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198280,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198280",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2216.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198281,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198281",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2218.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198282,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198282",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2220.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198283,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198283",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2222.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198284,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198284",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2224.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198285,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198285",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2226.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198286,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198286",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2228.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198287,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198287",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2230.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198288,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198288",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2232.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198289,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198289",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2234.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198290,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198290",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2236.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198291,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198291",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2238.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198292,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198292",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2240.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198293,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198293",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2242.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198294,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198294",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2244.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198295,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198295",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2246.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198296,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198296",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2248.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198297,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198297",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2250.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198298,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198298",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2252.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198299,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198299",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2254.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198300,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198300",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2256.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198301,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 22:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198301",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2258.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198302,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198302",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2300.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198303,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198303",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2302.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198304,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198304",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2304.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198305,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198305",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2306.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198306,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198306",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2308.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198307,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198307",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2310.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198308,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198308",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2312.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198309,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198309",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2314.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198310,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198310",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2316.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198311,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198311",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2318.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198312,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198312",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2320.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198313,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198313",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2322.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198314,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198314",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2324.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198315,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198315",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2326.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198316,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198316",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2328.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198317,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198317",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2330.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198318,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198318",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2332.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198319,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198319",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2334.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198320,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198320",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2336.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198321,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198321",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2338.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198322,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198322",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2340.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198323,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198323",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2342.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198324,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198324",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2344.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198325,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198325",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2346.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198326,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198326",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2348.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198327,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198327",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2350.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198328,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198328",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2352.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198329,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198329",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2354.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198330,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198330",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2356.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198331,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-02 23:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198331",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-02_T_2358.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198332,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198332",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0000.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198333,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198333",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0002.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198334,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198334",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0004.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198335,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198335",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0006.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198336,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198336",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0008.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198337,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198337",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0010.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198338,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198338",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0012.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198339,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198339",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0014.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198340,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198340",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0016.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198341,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198341",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0018.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198342,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198342",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0020.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198343,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198343",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0022.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198344,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198344",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0024.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198345,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198345",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0026.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198346,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198346",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0028.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198347,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198347",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0030.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198348,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198348",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0032.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198349,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198349",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0034.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198350,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198350",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0036.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198351,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198351",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0038.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198352,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198352",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0040.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198353,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198353",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0042.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198354,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198354",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0044.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198355,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198355",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0046.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198356,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198356",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0048.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198357,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198357",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0050.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198358,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198358",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0052.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198359,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198359",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0054.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198360,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198360",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0056.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198361,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 00:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198361",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0058.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198362,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198362",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0100.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198363,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198363",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0102.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198364,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198364",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0104.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198365,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198365",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0106.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198366,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198366",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0108.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198367,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198367",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0110.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198368,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198368",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0112.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198369,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198369",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0114.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198370,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198370",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0116.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198371,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198371",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0118.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198372,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198372",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0120.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198373,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198373",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0122.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198374,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198374",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0124.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198375,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198375",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0126.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198376,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198376",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0128.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198377,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198377",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0130.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198378,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198378",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0132.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198379,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198379",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0134.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198380,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198380",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0136.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198381,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198381",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0138.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198382,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198382",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0140.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198383,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198383",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0142.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198384,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198384",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0144.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198385,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198385",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0146.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198386,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198386",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0148.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198387,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198387",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0150.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198388,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198388",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0152.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198389,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198389",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0154.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198390,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198390",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0156.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198391,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 01:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198391",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0158.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198392,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198392",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0200.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198393,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198393",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0202.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198394,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198394",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0204.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198395,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198395",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0206.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198396,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198396",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0208.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198397,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198397",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0210.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198398,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198398",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0212.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198399,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198399",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0214.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198400,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198400",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0216.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198401,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198401",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0218.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198402,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198402",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0220.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198403,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198403",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0222.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198404,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198404",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0224.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198405,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198405",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0226.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198406,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198406",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0228.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198407,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198407",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0230.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198408,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198408",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0232.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198409,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198409",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0234.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198410,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198410",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0236.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198411,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198411",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0238.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198412,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198412",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0240.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198413,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198413",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0242.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198414,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198414",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0244.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198415,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198415",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0246.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198416,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198416",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0248.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198417,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198417",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0250.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198418,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198418",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0252.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198419,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198419",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0254.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198420,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198420",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0256.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198421,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 02:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198421",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0258.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198422,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198422",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0300.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198423,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198423",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0302.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198424,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198424",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0304.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198425,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198425",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0306.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198426,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198426",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0308.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198427,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198427",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0310.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198428,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198428",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0312.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198429,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198429",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0314.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198430,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198430",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0316.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198431,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198431",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0318.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198432,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198432",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0320.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198433,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198433",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0322.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198434,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198434",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0324.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198435,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198435",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0326.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198436,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198436",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0328.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198437,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198437",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0330.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198438,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198438",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0332.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198439,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198439",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0334.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198440,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198440",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0336.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198441,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198441",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0338.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198442,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198442",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0340.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198443,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198443",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0342.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198444,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198444",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0344.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198445,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198445",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0346.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198446,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198446",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0348.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198447,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198447",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0350.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198448,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198448",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0352.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198449,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198449",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0354.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198450,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198450",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0356.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198451,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 03:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198451",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0358.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198452,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198452",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0400.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198453,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198453",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0402.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198454,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198454",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0404.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198455,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198455",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0406.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198456,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198456",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0408.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198457,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198457",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0410.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198458,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198458",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0412.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198459,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198459",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0414.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198460,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198460",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0416.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198461,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198461",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0418.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198462,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198462",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0420.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198463,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198463",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0422.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198464,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198464",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0424.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198465,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198465",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0426.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198466,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198466",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0428.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198467,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198467",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0430.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198468,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198468",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0432.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198469,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198469",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0434.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198470,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:36:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198470",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0436.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198471,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:38:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198471",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0438.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198472,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:40:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198472",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0440.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198473,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:42:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198473",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0442.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198474,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:44:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198474",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0444.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198475,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:46:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198475",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0446.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198476,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:48:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198476",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0448.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198477,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:50:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198477",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0450.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198478,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:52:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198478",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0452.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198479,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:54:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198479",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0454.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198480,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:56:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198480",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0456.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198481,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 04:58:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198481",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0458.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198482,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:00:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198482",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0500.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198483,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:02:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198483",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0502.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198484,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:04:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198484",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0504.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198485,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:06:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198485",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0506.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198486,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:08:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198486",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0508.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198487,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:10:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198487",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0510.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198488,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:12:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198488",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0512.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198489,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:14:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198489",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0514.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198490,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:16:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198490",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0516.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198491,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:18:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198491",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0518.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198492,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:20:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198492",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0520.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198493,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:22:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198493",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0522.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198494,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:24:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198494",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0524.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198495,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:26:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198495",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0526.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198496,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:28:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198496",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0528.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198497,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:30:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198497",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0530.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198498,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:32:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198498",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0532.jpg",
+		"fileMediatype" : "image"
+	},
+	{
+		"media_id" : 1198499,
+		"deploymentID" : "TH-J-3140",
+		"captureMethod" : "automatic interval exposure",
+		"timestamp" : "2025-07-03 05:34:00.000",
+		"filePath" : "https:\/\/lepmon.de\/annot8\/media\/1198499",
+		"filePublic" : "Y",
+		"fileName" : "Lepmon#SN010030_TH_J_2025-07-03_T_0534.jpg",
+		"fileMediatype" : "image"
+	}
+]
