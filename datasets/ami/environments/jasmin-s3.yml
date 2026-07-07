@@ -1,0 +1,11 @@
+name: jasmin-s3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - pillow
+  - pip
+  - pip:
+      - boto3
+      - fsspec

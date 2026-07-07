@@ -1,0 +1,45 @@
+# credentials / secrets
+credentials/
+*.key
+*.pem
+*.env
+credentials/credentials.json
+configs/
+
+# runtime outputs
+**/outputs/
+**/logs/
+**/tmp/
+
+# caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local environments
+.conda/
+.env/
+venv/
+
+# large/local data
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.parquet
+*.zip
+*.tar.gz
+*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+
+# NFS files
+.nfs*
