@@ -3,6 +3,9 @@ import pandas as pd
 import uuid
 import datetime
 from pathlib import Path
+import requests
+
+CACHE_PATH = Path("../configs/gbif_taxonomy_cache.json")
 
 # ============================================================================
 # Camtrap-DP schemas
@@ -259,6 +262,202 @@ def get_scientific_name(shape: dict) -> str | None:
     return shape.get(rank_map.get(taxon_rank, ""))
 
 # ============================================================================
+# Standardise taxonomy against GBIF
+# ============================================================================
+
+def load_taxonomy_cache():
+    """
+    Load the GBIF taxonomy cache from disk.
+
+    Returns
+    -------
+    dict
+        Dictionary mapping taxonomic keys to cached GBIF match
+        results. Returns an empty dictionary if the cache file
+        does not exist.
+
+    Notes
+    -----
+    Cache entries are keyed using the output of
+    ``make_taxon_key()``.
+
+    Example
+    -------
+    {
+        "Animalia|Arthropoda|Insecta|Lepidoptera|Crambidae|"
+        "Loxomorpha|flavidissimalis": {
+            "scientificName": "Loxomorpha flavidissimalis",
+            "taxonRank": "species",
+            "gbifKey": "9308930",
+            "confidence": 100,
+            "matchType": "EXACT"
+        }
+    }
+    """
+    if CACHE_PATH.exists():
+        with open(CACHE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    return {}
+    
+def save_taxonomy_cache(cache):
+    """
+    Save the GBIF taxonomy cache to disk.
+
+    Parameters
+    ----------
+    cache : dict
+        Taxonomy cache dictionary containing GBIF lookup results.
+
+    Notes
+    -----
+    The cache is written as formatted JSON so that it can be
+    inspected or edited manually if necessary.
+
+    Existing cache contents will be overwritten.
+    """
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=2)
+        
+def make_taxon_key(shape):
+    """
+    Create a unique cache key from the taxonomy fields of a shape.
+
+    Parameters
+    ----------
+    shape : dict
+        Detection record from a Mothbot JSON file.
+
+    Returns
+    -------
+    str
+        Pipe-delimited string containing the taxonomy hierarchy.
+
+    Notes
+    -----
+    Missing values are represented as empty strings so that
+    records with identical taxonomy generate identical keys.
+
+    Example
+    -------
+    Animalia|Arthropoda|Insecta|Lepidoptera|Crambidae|
+    Loxomorpha|flavidissimalis
+    """
+    return "|".join([
+        str(shape.get("kingdom") or ""),
+        str(shape.get("phylum") or ""),
+        str(shape.get("class") or ""),
+        str(shape.get("order") or ""),
+        str(shape.get("family") or ""),
+        str(shape.get("genus") or ""),
+        str(shape.get("species") or ""),
+    ])
+
+def get_validated_taxonomy(shape, taxon_cache):
+    """
+    Validate a taxonomic identification against the GBIF Species
+    Match API and return the lowest supported rank.
+
+    Parameters
+    ----------
+    shape : dict
+        Detection record from a Mothbot JSON file containing
+        taxonomic fields such as kingdom, phylum, class, order,
+        family, genus and species.
+
+    taxon_cache : dict
+        Dictionary containing cached GBIF lookup results.
+
+    Returns
+    -------
+    dict or None
+        Dictionary containing validated taxonomy information if
+        a sufficiently confident match is found, otherwise None.
+
+        Returned dictionary structure:
+
+        {
+            "scientificName": str,
+            "taxonRank": str,
+            "gbifKey": str,
+            "confidence": int,
+            "matchType": str
+        }
+    """
+    key = make_taxon_key(shape)
+
+    if key in taxon_cache:
+        return taxon_cache[key]
+
+    params = {}
+
+    for field in [
+        "kingdom",
+        "phylum",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species",
+    ]:
+        value = shape.get(field)
+
+        if value:
+            params[field] = value
+
+    try:
+
+        response = requests.get(
+            "https://api.gbif.org/v2/species/match",
+            params=params,
+            timeout=10,
+        )
+
+        response.raise_for_status()
+
+        result = response.json()
+
+        diagnostics = result.get("diagnostics", {})
+
+        confidence = diagnostics.get("confidence", 0)
+        match_type = diagnostics.get("matchType", "NONE")
+
+        if confidence >= 95 and match_type != "NONE":
+
+            classification = result.get("classification", [])
+
+            if classification:
+
+                lowest = classification[-1]
+
+                usage = result.get("usage", {})
+
+                cache_result = {
+                    "scientificName": lowest["name"],
+                    "taxonRank": lowest["rank"].lower(),
+                    "gbifKey": usage.get("key"),
+                    "confidence": confidence,
+                    "matchType": match_type,
+                }
+
+            else:
+                cache_result = None
+
+        else:
+            cache_result = None
+
+    except requests.RequestException:
+        cache_result = None
+
+    # Cache successful and unsuccessful lookups
+    taxon_cache[key] = cache_result
+
+    return cache_result
+
+
+# ============================================================================
 # Build rows for Camtrap DP CSVs
 # ============================================================================
 
@@ -388,6 +587,7 @@ def build_detection_rows(
     json_path: str,
     deployment_uuid: str,
     media_uuid: str,
+    taxon_cache: dict[str, dict | None],
 ) -> list:
     """
     Build Camtrap-DP detection rows from a Mothbot JSON file.
@@ -400,7 +600,10 @@ def build_detection_rows(
         Deployment UUID.
     media_uuid : str
         Parent media UUID.
-
+        
+    taxon_cache : dict[str, dict | None]
+        Cache of previously queried GBIF taxonomic matches.
+    
     Returns
     -------
     list
@@ -436,23 +639,19 @@ def build_detection_rows(
             detection_id
         ))
 
-        taxon_rank = shape.get("taxonRank")
+        validated_taxon = get_validated_taxonomy(
+            shape,
+            taxon_cache,
+        )
 
-        rank_map = {
-            "genus": "genus",
-            "family": "family",
-            "order": "order",
-            "class": "class",
-            "phylum": "phylum",
-            "kingdom": "kingdom",
-        }
+        if validated_taxon:
         
-        if taxon_rank == "species":
-            scientific_name = " ".join(
-                filter(None, [shape.get("genus"), shape.get("species")])
-            )
+            scientific_name = validated_taxon["scientificName"]
+            taxon_rank = validated_taxon["taxonRank"]
+        
         else:
-            scientific_name = shape.get(rank_map.get(taxon_rank, ""))
+            taxon_rank = None
+            scientific_name = None
 
         row = {
             "detectionID": detection_uuid,
@@ -465,8 +664,8 @@ def build_detection_rows(
             "detectionLevel": "media",
             "detectionType": "animal",
             "cameraSetupType": None,
-            "scientificName": get_scientific_name(shape),
-            "taxonRank": shape.get("taxonRank"),
+            "scientificName": scientific_name,
+            "taxonRank": taxon_rank,
             "count": None,
             "lifeStage": None,
             "sex": None,
@@ -523,8 +722,11 @@ def build_observation_rows(
 
     for d in detection_rows:
 
-        # Rule for converting detection to observation - may change for machine-labelled detections
+        # Rules for converting detection to observation - may change for machine-labelled detections
         if d["classificationMethod"] != "manual":
+            continue
+        
+        if not d["scientificName"] or not d["taxonRank"]:
             continue
 
         observation_uuid = str(
@@ -643,6 +845,7 @@ def build_detections_tbl(
     json_path: str,
     deployment_uuid: str,
     media_uuid: str,
+    taxon_cache: dict[str, dict | None],
 ) -> pd.DataFrame:
     """
     Build the detections table for a single Mothbot JSON file.
@@ -666,6 +869,7 @@ def build_detections_tbl(
         json_path,
         deployment_uuid,
         media_uuid,
+        taxon_cache,
     )
 
     return pd.DataFrame(detection_rows)

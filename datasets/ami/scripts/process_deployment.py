@@ -11,6 +11,8 @@ from camtrap_functions import (
     build_media_row,
     build_detection_rows,
     build_observation_rows,
+    load_taxonomy_cache,
+    save_taxonomy_cache,
     MEDIA_FIELDNAMES,
     DETECTION_FIELDNAMES,
     OBSERVATION_FIELDNAMES,
@@ -105,6 +107,8 @@ def main():
         raise FileNotFoundError(
             f"Input directory not found: {input_dir}"
         )
+    
+    taxon_cache = load_taxonomy_cache()
 
     output_dir = Path(
         f"../outputs/{bucket_name}/{deployment_id}"
@@ -213,6 +217,7 @@ def main():
                     json_path,
                     deployment_uuid,
                     media_uuid,
+                    taxon_cache,
                 )
         
                 if detection_rows:
@@ -231,6 +236,7 @@ def main():
         
                 if i % 1000 == 0:
                     logger.info(f"Processed {i:,} files")
+                    save_taxonomy_cache(taxon_cache)
                 
             except Exception:
             
@@ -239,6 +245,9 @@ def main():
                 )
         
                 continue
+    
+    # Update taxonomy cache
+    save_taxonomy_cache(taxon_cache)
 
     logger.info(
         f"Finished deployment {deployment_id}"
