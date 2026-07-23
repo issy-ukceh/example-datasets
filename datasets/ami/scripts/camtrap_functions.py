@@ -40,6 +40,17 @@ DEPLOYMENT_FIELDNAMES = [
     "relatedIdentifier",
 ]
 
+CAMERA_FIELDNAMES = [
+    "cameraID",
+    "cameraModel",
+    "cameraFocalLengthPx",
+    "distanceFromCameraCm",
+    "imageWidthPx",
+    "imageHeightPx",
+    "fieldOfViewWidthCm",
+    "fieldOfViewHeightCm",
+]
+
 MEDIA_FIELDNAMES = [
     "mediaID",
     "deploymentID",

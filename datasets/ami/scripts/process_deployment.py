@@ -16,6 +16,7 @@ from camtrap_functions import (
     build_observation_rows,
     load_taxonomy_cache,
     save_taxonomy_cache,
+    CAMERA_FIELDNAMES,
     MEDIA_FIELDNAMES,
     DETECTION_FIELDNAMES,
     OBSERVATION_FIELDNAMES,
@@ -80,8 +81,8 @@ def main():
 
     args = parser.parse_args()
 
-    bucket_name = args.bucket_name
-    deployment_id = args.deployment_id
+    bucket_name = args.bucket_name.strip().lower()
+    deployment_id = args.deployment_id.strip().lower()
 
     # Set up logging
     log_dir = Path(
@@ -138,27 +139,52 @@ def main():
     deployment_lookup = matches.iloc[0].to_dict()
     
     # Find camera
-    camera_id = deployment_lookup["camera_id"]
-    
-    camera_df = pd.read_csv(
-        "../configs/camera_lookup.csv"
-    )
-    
-    camera_matches = camera_df.loc[
-        camera_df["camera_id"] == camera_id
-    ]
-    
-    if camera_matches.empty:
-        raise ValueError(
-            f"No camera metadata found for {camera_id}"
+    camera_id = deployment_lookup.get("camera_id")
+
+    if pd.notna(camera_id):
+        camera_id = str(camera_id).strip()
+
+    camera_uuid = None
+    camera_row = None
+
+    if pd.isna(camera_id) or str(camera_id).strip() == "":
+        logger.warning(
+            f"Deployment {deployment_id} has no camera_id. "
+            "Skipping camera record."
         )
-    
-    camera_lookup = camera_matches.iloc[0].to_dict()
-    
-    # Generate camera UUID
-    camera_uuid = generate_camera_uuid(
-        camera_id
-    )
+    else:
+        camera_uuid = generate_camera_uuid(camera_id)
+        
+        camera_df = pd.read_csv(
+            "../configs/camera_lookup.csv"
+        )
+        
+        camera_matches = camera_df.loc[
+            camera_df["camera_id"] == camera_id
+        ]
+        
+        if camera_matches.empty:
+            raise ValueError(
+                f"No camera metadata found for {camera_id}"
+            )
+            
+        camera_lookup = camera_matches.iloc[0].to_dict()
+
+        camera_row = build_camera_row(
+            camera_lookup,
+            camera_uuid,
+        )
+
+    if camera_row is not None:
+        pd.DataFrame([camera_row]).to_csv(
+            output_dir / "cameras.csv",
+            index=False,
+        )
+    else:
+        pd.DataFrame(columns=CAMERA_FIELDNAMES).to_csv(
+            output_dir / "cameras.csv",
+            index=False,
+        )
     
     # Generate deployment UUID
     deployment_uuid = generate_deployment_uuid(
@@ -188,17 +214,6 @@ def main():
         index=False,
     )
 
-    # Write camera metadata to cameras.csv
-    camera_row = build_camera_row(
-        camera_lookup,
-        camera_uuid,
-    )
-
-    pd.DataFrame([camera_row]).to_csv(
-        output_dir / "cameras.csv",
-        index=False,
-    )
-        
     # Find JSON input files
     json_files = sorted(
         input_dir.rglob("*.json")
