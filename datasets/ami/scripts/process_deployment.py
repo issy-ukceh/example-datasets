@@ -8,7 +8,9 @@ import datetime
 from camtrap_functions import (
     infer_deployment_dates,
     generate_deployment_uuid,
+    generate_camera_uuid,
     build_deployment_row,
+    build_camera_row,
     build_media_row,
     build_detection_rows,
     build_observation_rows,
@@ -59,19 +61,6 @@ def setup_logging(log_dir, deployment_id):
 
     return logger
 
-
-def write_deployment_csv(
-    deployment_row,
-    output_dir,
-):
-    """
-    Write Camtrap DP formatted deployment metadata to deployments.csv.
-    """
-
-    pd.DataFrame([deployment_row]).to_csv(
-        output_dir / "deployments.csv",
-        index=False,
-    )
 
 def main():
 
@@ -148,6 +137,35 @@ def main():
     
     deployment_lookup = matches.iloc[0].to_dict()
     
+    # Find camera
+    camera_id = deployment_lookup["camera_id"]
+    
+    camera_df = pd.read_csv(
+        "../configs/camera_lookup.csv"
+    )
+    
+    camera_matches = camera_df.loc[
+        camera_df["camera_id"] == camera_id
+    ]
+    
+    if camera_matches.empty:
+        raise ValueError(
+            f"No camera metadata found for {camera_id}"
+        )
+    
+    camera_lookup = camera_matches.iloc[0].to_dict()
+    
+    # Generate camera UUID
+    camera_uuid = generate_camera_uuid(
+        camera_id
+    )
+    
+    # Generate deployment UUID
+    deployment_uuid = generate_deployment_uuid(
+        bucket_name,
+        deployment_id
+    )
+    
     # Infer deployment dates in case manual dates are missing
     start_inferred, end_inferred = infer_deployment_dates(
         input_dir
@@ -156,25 +174,32 @@ def main():
     deployment_lookup["deployment_start_inferred"] = start_inferred
     deployment_lookup["deployment_end_inferred"] = end_inferred
     
-    # Generate deployment UUID
-    deployment_uuid = generate_deployment_uuid(
-        bucket_name,
-        deployment_id
-    )
-    
     # Write deployment metadata to deployments.csv
     deployment_row = build_deployment_row(
         deployment_lookup,
         deployment_id,
         deployment_uuid,
+        camera_uuid,
         bucket_name,
     )
 
-    write_deployment_csv(
-        deployment_row,
-        output_dir,
+    pd.DataFrame([deployment_row]).to_csv(
+        output_dir / "deployments.csv",
+        index=False,
     )
-    
+
+    # Write camera metadata to cameras.csv
+    camera_row = build_camera_row(
+        camera_lookup,
+        camera_uuid,
+    )
+
+    pd.DataFrame([camera_row]).to_csv(
+        output_dir / "cameras.csv",
+        index=False,
+    )
+        
+    # Find JSON input files
     json_files = sorted(
         input_dir.rglob("*.json")
     )

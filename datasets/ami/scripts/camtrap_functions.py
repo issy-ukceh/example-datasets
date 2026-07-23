@@ -195,10 +195,25 @@ def generate_deployment_uuid(bucket_name, deployment_id):
     
     deployment_uuid = str(uuid.uuid5(
         BUCKET_NAMESPACE,
-        deployment_id
+        deployment_id.strip()
     ))
     
     return deployment_uuid
+    
+def generate_camera_uuid(camera_id):
+    CAMERA_NAMESPACE = uuid.uuid5(
+        uuid.NAMESPACE_URL,
+        "camera"
+    )
+
+    camera_uuid = str(
+        uuid.uuid5(
+            CAMERA_NAMESPACE,
+            camera_id.strip()
+        )
+    )
+    
+    return camera_uuid
 
 def extract_datetime_from_photobase(
     photo_base: str | None,
@@ -465,6 +480,7 @@ def build_deployment_row(
     deployment_lookup: dict,
     deployment_id: str,
     deployment_uuid: str,
+    camera_uuid: str,
     bucket_name: str,
 ) -> dict:
     """
@@ -478,6 +494,8 @@ def build_deployment_row(
         Source deployment identifier.
     deployment_uuid : str
         Deployment UUID.
+    camera_uuid : str
+        Camera UUID.
     bucket_name : str
         Country/bucket name.
 
@@ -507,16 +525,16 @@ def build_deployment_row(
     
     deployment_row = {
         "deploymentID": deployment_uuid,
-        "locationID": deployment_id,
+        "locationID": deployment_id, #TODO: Change to location_id from deployment_lookup.csv?
         "locationName": deployment_lookup.get("location_name"),
         "latitude": deployment_lookup.get("latitude"),
         "longitude": deployment_lookup.get("longitude"),
         "coordinateUncertainty": None,
-        "deploymentStart": deployment_start, #TODO: Potentially get from Alyssa's deployment info
-        "deploymentEnd": deployment_end, #TODO: Potentially get from Alyssa's deployment info
+        "deploymentStart": deployment_start,
+        "deploymentEnd": deployment_end,
         "setupBy": None,
-        "cameraID": None, #TODO: Potentially get from Alyssa's deployment info
-        "cameraModel": "UKCEH-AMI", #TODO: Change to camera model from Alyssa's deployment info
+        "cameraID": camera_uuid,
+        "cameraModel": deployment_lookup.get("camera_model"),
         "cameraDelay": None,
         "cameraHeight": None,
         "cameraDepth": None,
@@ -535,6 +553,39 @@ def build_deployment_row(
     }
 
     return deployment_row
+
+def build_camera_row(
+    camera_lookup: dict,
+    camera_uuid: str,
+) -> dict:
+    """
+    Build a Camtrap DP custom table row for camera details.
+
+    Parameters
+    ----------
+    camera_lookup : dict
+        Camera metadata.
+    camera_uuid : str
+        Camera UUID.
+
+    Returns
+    -------
+    dict
+        Camera row.
+    """
+    
+    camera_row = {
+        "cameraID": camera_uuid,
+        "cameraModel": camera_lookup.get("camera_model"),
+        "cameraFocalLengthPx": camera_lookup.get("camera_focal_length_px"),
+        "distanceFromCameraCm": camera_lookup.get("distance_from_camera_cm"),
+        "imageWidthPx": camera_lookup.get("image_width_px"),
+        "imageHeightPx": camera_lookup.get("image_height_px"),
+        "fieldOfViewWidthCm": camera_lookup.get("field_of_view_width_cm"),
+        "fieldOfViewHeightCm": camera_lookup.get("field_of_view_height_cm"),
+    }
+
+    return camera_row
 
 def build_media_row(
     json_path: str,
