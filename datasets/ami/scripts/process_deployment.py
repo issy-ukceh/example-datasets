@@ -3,6 +3,7 @@ import csv
 from pathlib import Path
 import pandas as pd
 import logging
+import datetime
 
 from camtrap_functions import (
     infer_deployment_dates,
@@ -26,12 +27,14 @@ def setup_logging(log_dir, deployment_id):
 
     logger.setLevel(logging.INFO)
 
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+
     out_handler = logging.FileHandler(
-        log_dir / "process.out"
+        log_dir / f"{timestamp}_process.out"
     )
 
     err_handler = logging.FileHandler(
-        log_dir / "process.err"
+        log_dir / f"{timestamp}_process.err"
     )
 
     out_handler.setLevel(logging.INFO)
@@ -46,6 +49,13 @@ def setup_logging(log_dir, deployment_id):
 
     logger.addHandler(out_handler)
     logger.addHandler(err_handler)
+
+    console_handler = logging.StreamHandler()
+    
+    console_handler.setLevel(logging.INFO)
+    console_handler.setFormatter(formatter)
+    
+    logger.addHandler(console_handler)
 
     return logger
 
@@ -85,7 +95,9 @@ def main():
     deployment_id = args.deployment_id
 
     # Set up logging
-    log_dir = Path("../logs")
+    log_dir = Path(
+        f"../logs/{bucket_name}/{deployment_id}"
+    )
     
     log_dir.mkdir(
         parents=True,
@@ -202,6 +214,10 @@ def main():
         detection_writer.writeheader()
         observation_writer.writeheader()
     
+        total_files = len(json_files)
+        
+        processed_files = 0
+        
         for i, json_path in enumerate(json_files, start=1):
         
             try:
@@ -237,6 +253,8 @@ def main():
                 if i % 1000 == 0:
                     logger.info(f"Processed {i:,} files")
                     save_taxonomy_cache(taxon_cache)
+                    
+                processed_files += 1
                 
             except Exception:
             
@@ -248,10 +266,11 @@ def main():
     
     # Update taxonomy cache
     save_taxonomy_cache(taxon_cache)
-
+    
     logger.info(
-        f"Finished deployment {deployment_id}"
-    )            
+        f"Finished deployment {deployment_id}. "
+        f"Processed {processed_files:,}/{total_files:,} files successfully."
+    )
         
 if __name__ == "__main__":
     main()
