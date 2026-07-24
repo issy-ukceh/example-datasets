@@ -265,27 +265,6 @@ def round_points(
         [round(x, precision), round(y, precision)]
         for x, y in points
     ]
-    
-def get_scientific_name(shape: dict) -> str | None:
-    """Return the lowest available scientific name based on taxonRank."""
-
-    taxon_rank = shape.get("taxonRank")
-
-    rank_map = {
-        "genus": "genus",
-        "family": "family",
-        "order": "order",
-        "class": "class",
-        "phylum": "phylum",
-        "kingdom": "kingdom",
-    }
-
-    if taxon_rank == "species":
-        return " ".join(
-            filter(None, [shape.get("genus"), shape.get("species")])
-        ) or None
-
-    return shape.get(rank_map.get(taxon_rank, ""))
 
 # ============================================================================
 # Standardise taxonomy against GBIF
@@ -719,7 +698,7 @@ def build_detection_rows(
             "detectionID": detection_uuid,
             "deploymentID": deployment_uuid,
             "mediaID": media_uuid,
-            "eventID": None,  # Potentially add eventIDs to manual observations once tracks have been generated
+            "eventID": None,  #TODO: Add eventIDs to manual observations once tracks have been generated
             "eventStart": None,
             "eventEnd": None,
             "sourceDetectionID": None,
