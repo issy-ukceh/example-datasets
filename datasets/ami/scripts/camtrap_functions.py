@@ -5,7 +5,14 @@ import datetime
 from pathlib import Path
 import requests
 
-CACHE_PATH = Path("../configs/gbif_taxonomy_cache.json")
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+
+CACHE_PATH = (
+    PROJECT_ROOT
+    / "configs"
+    / "gbif_taxonomy_cache.json"
+)
 
 # ============================================================================
 # Camtrap-DP schemas

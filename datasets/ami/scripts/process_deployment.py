@@ -22,6 +22,9 @@ from camtrap_functions import (
     OBSERVATION_FIELDNAMES,
 )
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+
 def setup_logging(log_dir, deployment_id):
     logger = logging.getLogger("camtrap")
     
@@ -85,8 +88,11 @@ def main():
     deployment_id = args.deployment_id.strip().lower()
 
     # Set up logging
-    log_dir = Path(
-        f"../logs/{bucket_name}/{deployment_id}"
+    log_dir = (
+        PROJECT_ROOT
+        / "logs"
+        / bucket_name
+        / deployment_id
     )
     
     log_dir.mkdir(
@@ -101,8 +107,11 @@ def main():
     )
 
     # Specify input/output file paths
-    input_dir = Path(
-        f"../mothbot/{bucket_name}/{deployment_id}"
+    input_dir = (
+        PROJECT_ROOT
+        / "mothbot"
+        / bucket_name
+        / deployment_id
     )
     
     if not input_dir.exists():
@@ -112,8 +121,11 @@ def main():
     
     taxon_cache = load_taxonomy_cache()
 
-    output_dir = Path(
-        f"../outputs/{bucket_name}/{deployment_id}"
+    output_dir = (
+        PROJECT_ROOT
+        / "outputs"
+        / bucket_name
+        / deployment_id
     )
 
     output_dir.mkdir(
@@ -123,7 +135,7 @@ def main():
 
     # Load deployment info lookup
     lookup_df = pd.read_csv(
-            "../configs/deployment_lookup.csv"
+        PROJECT_ROOT / "configs" / "deployment_lookup.csv"
     )
 
     # Find deployment
@@ -154,9 +166,9 @@ def main():
         )
     else:
         camera_uuid = generate_camera_uuid(camera_id)
-        
+
         camera_df = pd.read_csv(
-            "../configs/camera_lookup.csv"
+            PROJECT_ROOT / "configs" / "camera_lookup.csv"
         )
         
         camera_matches = camera_df.loc[
